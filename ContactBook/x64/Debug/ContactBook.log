@@ -1,0 +1,12 @@
+﻿  ContactBook.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(2027,17): error C2678: binary '=': no operator found which takes a left-hand operand of type 'const Contact' (or there is no acceptable conversion)
+C:\Users\LoneW\Documents\GitHub\ContactBook\ContactBook\ContactBook.cpp(14,1): message : could be 'Contact &Contact::operator =(Contact &&)'
+C:\Users\LoneW\Documents\GitHub\ContactBook\ContactBook\ContactBook.cpp(14,1): message : or       'Contact &Contact::operator =(const Contact &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(2017,1): message : while trying to match the argument list '(const Contact, const Contact)'
+C:\Users\LoneW\Documents\GitHub\ContactBook\ContactBook\ContactBook.cpp(66): message : see reference to function template instantiation '_FwdIt std::remove_if<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,deleteContact::<lambda_1>>(_FwdIt,const _FwdIt,_Pr)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Contact>>>,
+              _Ty=Contact,
+              _Pr=deleteContact::<lambda_1>
+          ]
